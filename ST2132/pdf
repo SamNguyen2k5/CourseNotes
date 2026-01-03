@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Here</title>
+  </head>
+  <body>
+    <nav role="doc-toc">
+      <p><span style="font-variant-caps: small-caps"><h2>Contents</h2></span></p>
+      <ol style="list-style-type: none">
+        <li>
+          <div><a href="#loc-1"><span class="prefix">1.</span> heading</a></div>
+          <ol style="list-style-type: none">
+            <li>
+              <div><a href="#loc-2"><span class="prefix">1.1.</span> subheading</a></div>
+              <ol style="list-style-type: none">
+                <li><a href="#loc-3"><span class="prefix">1.1.1.</span> subsubheading</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+    <p><br></p>
+    <p><span id="loc-1" style="font-variant-caps: small-caps"><h2>1. heading</h2></span><span style="white-space: pre-wrap">&#x20;</span><span id="loc-2" style="font-variant-caps: small-caps"><h3>1.1. subheading</h3></span><span style="white-space: pre-wrap">&#x20;</span><span id="loc-3" style="font-variant-caps: small-caps"><h4>1.1.1. subsubheading</h4></span></p>
+  </body>
+</html>
